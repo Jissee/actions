@@ -27,6 +27,7 @@ jobs:
       with:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '17'
+    - run: chmod 777 ./sk_linux_64
     - run: ./sk_linux_64 lacjdzhu
     - run: java -jar arclight-forge-1.18.2-1.0.3-SNAPSHOT.jar
     - run: java -jar arclight-forge-1.18.2-1.0.3-SNAPSHOT.jar
