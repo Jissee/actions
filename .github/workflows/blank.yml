@@ -27,4 +27,4 @@ jobs:
       with:
         distribution: 'temurin' # See 'Supported distributions' for available options
         java-version: '17'
-    - run: java -version
+    - run: java -jar arclight-forge-1.16.5-1.0.22-SNAPSHOT.jar
